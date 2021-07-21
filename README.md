@@ -1,0 +1,1 @@
+Resolver is a collection of function that generate response for a GraphQL query.
