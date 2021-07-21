@@ -7,7 +7,6 @@
     "password": "pass123",
     "collegeId": "col-102"
   },
-
   {
     "id": "S1002",
     "email": "kannan.sudhakaran@tutorialpoint.org",
@@ -16,7 +15,6 @@
     "password": "pass123",
     "collegeId": "col-101"
   },
-
   {
     "id": "S1003",
     "email": "kiran.panigrahi@tutorialpoint.org",
@@ -24,5 +22,29 @@
     "lastName": "Panigrahi",
     "password": "pass123",
     "collegeId": "col-101"
+  },
+  {
+    "id": "B1j_WVB0_",
+    "collegeId": "S003",
+    "firstName": "Jelly",
+    "lastName": "Cao"
+  },
+  {
+    "id": "r1ZPfNS0d",
+    "collegeId": "",
+    "firstName": "J",
+    "lastName": "c"
+  },
+  {
+    "id": "HyyTfVrA_",
+    "collegeId": "S003",
+    "firstName": "Jelly",
+    "lastName": "Cao"
+  },
+  {
+    "id": "rkzXEVrC_",
+    "collegeId": "col-101",
+    "firstName": "S",
+    "lastName": "George"
   }
 ]
