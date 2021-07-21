@@ -12,5 +12,13 @@ type Student {
   fullName: String
   password: String
   collegeId: String    
+  college: College
+}
+
+type College {
+  id: ID!
+  name: String
+  location: String
+  rating: Float
 }
 
