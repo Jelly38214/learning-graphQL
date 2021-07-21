@@ -1,10 +1,13 @@
 const db = require("./db");
 const Query = {
-  test: () => "Test Success, GraphQL server is up & running !!",
-  greeting: () => "hello from TutorialsPoint !!!",
   students: () => db.students.list(),
   studentById: (root, args, context, info) => {
     return db.students.get(args.id);
+  },
+  sayHello: (root, args, context, info) =>
+    `Hi ${args.name} GraphQL server says Hello to you !!`,
+  setFavoriteColor: (root, args) => {
+    return "Your Fav Color is : " + args.color;
   },
 };
 
