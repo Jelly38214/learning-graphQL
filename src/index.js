@@ -12,10 +12,10 @@ const server = new ApolloServer({
 });
 
 (async () => {
-  const { url, port } = await server.listen({ port: process.env.PORT || 4000 });
+  const { url, port } = await server.listen({ port: process.env.PORT || 8888 });
   console.log(`
       🚀  Server is running!
       🔉  Listening on port ${port}
-      📭  Query at ${url}}
+      📭  Query at ${url}
    `);
 })();
