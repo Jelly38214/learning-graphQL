@@ -11,10 +11,11 @@ const server = new ApolloServer({
   }),
 });
 
-server.listen().then(() => {
+(async () => {
+  const { url, port } = await server.listen({ port: process.env.PORT || 4000 });
   console.log(`
-    🚀  Server is running!
-    🔉  Listening on port 4000
-    📭  Query at https://studio.apollographql.com/dev
-  `);
-});
+      🚀  Server is running!
+      🔉  Listening on port ${port}
+      📭  Query at ${url}}
+   `);
+})();
