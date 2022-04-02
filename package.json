@@ -1,6 +1,6 @@
 {
   "name": "catstronauts-server-complete",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "back-end demo app for Apollo's lift-off course",
   "main": "index.js",
   "scripts": {
