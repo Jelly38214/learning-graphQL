@@ -47,6 +47,5 @@
     "@testing-library/user-event": "^7.1.2"
   },
   "main": "src/index.js",
-  "author": "Raphael Terrier @R4ph-t",
   "license": "MIT"
 }
