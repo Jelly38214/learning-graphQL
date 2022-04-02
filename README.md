@@ -1,3 +1,3 @@
-Resolver is a collection of function that generate response for a GraphQL query.
+# Catstronauts - client
 
-The custom validation logic will be a part of the resolver function.
+The starting point of the `client` code for Odyssey Lift-off I course.
