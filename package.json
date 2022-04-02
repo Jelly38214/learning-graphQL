@@ -15,7 +15,6 @@
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   },
-  "author": "Raphael Terrier @R4ph-t",
   "license": "MIT",
   "private": true
 }
