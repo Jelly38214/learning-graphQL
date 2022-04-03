@@ -40,7 +40,7 @@ const Module = ({ moduleId, trackId }) => {
 
   return (
     <Layout fullWidth>
-      <QueryResult loading={loading} error={error}>
+      <QueryResult loading={loading} error={error} data={data}>
         <ModuleDetail track={data?.track} module={data?.module} />
       </QueryResult>
     </Layout>
