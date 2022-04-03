@@ -10,7 +10,7 @@ const resolvers = {
     },
     // get a single module by ID, for the module detail page.
     module(parent, args, context, info) {
-      return context.dataSources.trackAPI.getModule(id);
+      return context.dataSources.trackAPI.getModule(args.id);
     }
   },
   Track: {
