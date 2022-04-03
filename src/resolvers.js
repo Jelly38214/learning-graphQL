@@ -8,6 +8,10 @@ const resolvers = {
     track: (parent, args, context, info) => {
       return context.dataSources.trackAPI.getTrack(args.id);
     },
+    // get a single module by ID, for the module detail page.
+    module(parent, args, context, info) {
+      return context.dataSources.trackAPI.getModule(id);
+    }
   },
   Track: {
     author: (parent, args, context, info) => {
